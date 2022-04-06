@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+
+* {
+    margin: 5;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7700ff;
+    background-image: url("./img/cezinha.jpg");
+}
+
+header {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    font-family: 'Rubik Glitch', cursive;
+    color: rgb(44, 10, 44);
+    font-size: large;
+}
+
+.container-1 {
+    background: rgb(184, 78, 255);
+    border-radius: 30px;
+    padding: 28px 7px;
+    width: 492px;
+    box-shadow: 0 0 51px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Rubik Glitch', cursive;
+    color:rgb(41, 0, 51);
+    opacity: 0.9;
+}
+
+
+
+.formula {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background: rgb(160, 18, 255);
+    border-radius: 121px;
+    padding: 16px 23px;
+    width: 382px;
+    height: 438px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+    opacity: 0.9;
+}
+
+.box div {
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box textarea {
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+   padding: 7px;
+    background-color: indigo;
+    color: white;
+    border-color: fuchsia;
+}
+
+.Opcão div {
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input[type=radio] {
+    margin: 0px 34px 0px 3px;
+}
+
+#submit-btn {
+    color: #d1aaff;
+    background-color: #5304a2;
+    padding: 15px;
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 24px;
+    border-radius: 29px;
+    border-color: hotpink;
+}
+
+select {
+    margin-top: 7px;
+    background-color: #de95ff;
+    border-radius: 23px;
+    border-color: fuchsia;
+}
+
+.anim-body {
+
+}
+
+.fog-anim{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    left:0;
+    top:0;
+    background: url("./img/fog4.png") repeat-x;
+    background-size: 200% auto;
+    background-position: 0 bottom;
+    animation: foganim 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events:none;
+}
+
+@keyframes foganim{
+    0%{ background-position: -200% bottom }
+    100%{ background-position:0% bottom }
+}
+
+
+
+
+
+
+
+

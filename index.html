@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cinerária</title>
+<link  href="./style.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <div>
+        <h1 class="container-1" >Caesar Cypher and Base 64</h1>
+    </div>  
+
+
+    <div class="formula">
+    <form class="box">
+
+<div class="input-container">
+     <label for="">Enter text</label>
+ <textarea name="decoded-text" id="decoded-text"></textarea>
+   </div>
+        
+   <div class="Opcão">
+    <label for="">Choose your crypto</label>
+
+ <select id="cypher-type">
+   <option selected>Base64</option>
+   <option>Caesar</option>
+ </select>
+
+  <div id="options">
+     <label for="encode-radio">Time to Encrypt</label>
+   <input type="radio" name="radio" id="encode-radio" onchange="changeBtnName()" checked>
+
+     <label for="decode-radio">Time to Decrypt</label>
+   <input type="radio" name="radio" id="decode-radio" onchange="changeBtnName()">
+     </div>
+            
+   <input type="submit" value="Encode message" id="submit-btn">
+      </div>
+
+  <div class="result-container">
+     <label for="encoded-text">Your Secret text</label>
+   <textarea name="encoded-text" id="encoded-text"></textarea>
+</div>
+
+         </form>
+    </div> 
+<script src="./script.js"></script>
+
+<audio controls autoplay hidden>
+  <source src="./sons/Relíquia De Energia.GkeD1na0.mp3.part" type="audio/mpeg">
+  <source src="./sons/Relíquia De Energia.GkeD1na0.mp3.part" type="audio/mpeg">
+</audio>
+
+<div class="anim-body">
+  <div class="fog-anim">
+
+  </div>
+</div>
+
+
+
+
+
+
+
+  </body>
+</html>
